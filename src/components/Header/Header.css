@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
 header {
   grid-column: 1 / span 12;
   position: fixed;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
   height: var(--min-height-header);
   margin: 0;
@@ -36,8 +38,8 @@ nav .LL-NavigationMenuList,
 nav .LL-IconsList {
   display: flex;
   gap: 1rem;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  text-transform: uppercase;
   padding: 0 40px;
 }
 
@@ -72,7 +74,7 @@ ul.LL-NavigationMenuList li a {
     height: 100vh;
   }
 
-  #LL-HeaderMenu.open > ul.LL-NavigationMenuList li {
+  #LL-HeaderMenu.open>ul.LL-NavigationMenuList li {
     opacity: 0;
   }
 

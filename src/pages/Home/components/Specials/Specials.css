@@ -14,7 +14,7 @@ section.LL-Specials {
 
 #LL-Section-SpecialItems {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: stretch;
   gap: 2.25rem;
   flex-wrap: wrap;

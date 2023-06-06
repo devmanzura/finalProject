@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
 footer {
   grid-column: 1 / span 12;
   display: flex;
@@ -8,9 +10,10 @@ footer {
   min-height: 80px;
   width: 100%;
   height: 100%;
-  background-color: gray;
+  background-color: rgb(246, 208, 18, 0.6);
   flex-wrap: wrap;
   box-shadow: var(--box-shadow-3);
+  font-family: 'Montserrat', sans-serif;
 }
 
 footer section:not(#LL-SocialMediaWidget),
@@ -24,6 +27,6 @@ footer section[class^='LL-Footer'] {
   gap: 1.25rem;
 }
 
-.LL-FooterNavigation > ul > li {
+.LL-FooterNavigation>ul>li {
   padding: 4px 0;
 }

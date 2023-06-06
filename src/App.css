@@ -1,3 +1,4 @@
+
 h1,
 h2,
 h3,
@@ -45,7 +46,7 @@ li {
   list-style: none;
 }
 
-nav > ul > li,
+nav>ul>li,
 a {
   cursor: pointer;
   text-decoration: none;
@@ -131,9 +132,11 @@ h6 {
 .left {
   text-align: left;
 }
+
 .right {
   text-align: right;
 }
+
 .center {
   text-align: center;
 }

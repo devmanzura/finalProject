@@ -13,7 +13,7 @@ export const Hero = () => {
         </Heading>
         <p className="subtitle">Chicago</p>
         <p id="LL-Hero-desc">
-          We are a family owned Mediterranean restaurant, focused on traditional
+          We are a family owned restaurant, focused on traditional
           recipes served with a modern twist.
         </p>
         <Button

@@ -40,10 +40,10 @@ function App() {
     switch (type) {
       case 'setPreviousLocation': {
         return {
-          // ...state,
-          // previousLocation: [...state.previousLocation]
-          //   .slice(0, 1)
-          //   .push(payload),
+          ...state,
+          previousLocation: [...state.previousLocation]
+            .slice(0, 1)
+            .push(payload),
         };
       }
 

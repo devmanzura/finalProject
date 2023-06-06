@@ -1,17 +1,18 @@
 .LL-Testimonials {
   display: flex;
   flex-direction: column;
-  gap: 2.25rem;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
   background-color: var(--color-off-white);
   padding: 4.5rem 2.25rem;
 }
 
 .LL-Testimonials-Carousel {
   display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: stretch;
-  gap: 20px;
+  width: 70%;
+  align-items: center;
+  gap: 50px;
 }
 
 .LL-Testimonials-Carousel .LL-Card {
@@ -26,6 +27,7 @@
   .LL-Testimonials-Carousel {
     flex-wrap: wrap;
   }
+
   .LL-Testimonials-Carousel .LL-Card {
     flex-basis: 40%;
   }

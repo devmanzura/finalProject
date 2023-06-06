@@ -4,7 +4,7 @@ import './About.css';
 export const About = () => {
   return (
     <section id="about">
-      <Stack className="about-columns" justify="space-between">
+      <Stack className="about-columns" justify="space-around">
         <Stack.Item
           className="about-left-column"
           vertical
